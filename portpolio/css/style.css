@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: Avenir Roman,sans-serif;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    list-style-type: none;
+    
+}
+
+.menu a{
+    text-decoration: none;
+}
